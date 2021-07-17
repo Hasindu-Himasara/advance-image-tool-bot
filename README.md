@@ -66,4 +66,6 @@
 [+] https://github.com/heroku/heroku-buildpack-chromedriver
 
 ```
+#credits 
+[repo owner](https://github.com/TroJanzHEX/Image-Editor)
 
