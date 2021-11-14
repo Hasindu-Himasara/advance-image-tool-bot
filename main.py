@@ -196,7 +196,7 @@ def help(update, context):
     help_ = '''
 🙋‍♂️ To Carbonized a Code
 👀 replay to a Message with /carbon
-🧁 Join Updates @TECH_WIDE_GROUP
+🧁 Powerd By Programming Boy Corporation ©️
     '''
     update.message.reply_text(reply_to_message_id=update.message.message_id, text=help_, parse_mode='markdown')
 
