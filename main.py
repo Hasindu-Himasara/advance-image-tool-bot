@@ -239,7 +239,7 @@ def carbon(update, context):
     button = driver.find_element_by_xpath("//button[@class='jsx-1730877631 ']")
     button.click()
     time.sleep(5)
-    caption = "<b>Carbonized By <a herf=\"http://t.me/Advance_image_editor_Bot\">@slbotzone</a></b>☘"
+    caption = "<b>Carbonized By <a herf=\"http://t.me/Advance_image_editor_Bot\">@Advance_image_editor_Bot</a></b>☘"
     context.bot.send_document(chat_id=update.effective_chat.id,
                               document=open('./Carbon/carbon.png', 'rb'),
                               caption=caption, parse_mode="html")
