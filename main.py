@@ -185,7 +185,7 @@ def start(update, context):
     username = update.message.chat.username
     print("started By : ", username)
     welcome = f'''
-🙋‍♂️ Hi\n☘️ I'am Text to Carbonized a Code Generater Bot\n🙋‍♂️ Hit /help If You Don't Know How to Use Me\n\n🌷 Powerd By Programming Boy Corporation ©️\n☘️ Developer @HASINDU_HIMASARA
+🙋‍♂️ Hi\n☘️ I'am Text to Carbonized a Code Generator Bot\n🙋‍♂️ Hit /help If You Don't Know How to Use Me\n\n🌷 Powerd By Programming Boy Corporation ©️\n☘️ Developer @HASINDU_HIMASARA
 
 '''
     update.message.reply_text(reply_to_message_id=update.message.message_id, text=welcome, parse_mode='html',
