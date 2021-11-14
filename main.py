@@ -194,35 +194,9 @@ Hi\n☘️ I'am Text to Carbonized a Code Generater Bot\n🙋‍♂️ Hit /help
 @run_async
 def help(update, context):
     help_ = '''
-*You Don't Know How to Use Me ? ok
-
-To Get text from that image 🏃‍♂️
-
-replay to an image with /imagetotext  
-
-To Reverse search a image 🔍
-
-replay to an image with /reverse
-
-To Carbonized a Code 🌱
-
-replay to a Message with /carbon
-
-To Add watermark to an image 🏋️‍♂
-️
-replay to an image with /addwatermark {text to be watermark}:{watermark size}
-
-example: /addwatermark @slbotzone
-
-To Blur A Image 🚵‍♀️
-
-replay to an image with /blur {blur value}
-
-example: /blur 40
-මම දියුනු  photo editor bot කෙනෙක් මට ගොඩක් දෙවල් කරන්න පුලුවන් මන් වගේ කෙනෙක් හදාගන්න ඔන්නම් පහල විඩියො එක බලන්න
-https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA
-
-*
+🙋‍♂️ To Carbonized a Code
+👀 replay to a Message with /carbon
+🧁 Join Updates @TECH_WIDE_GROUP
     '''
     update.message.reply_text(reply_to_message_id=update.message.message_id, text=help_, parse_mode='markdown')
 
