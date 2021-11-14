@@ -185,39 +185,8 @@ def start(update, context):
     username = update.message.chat.username
     print("started By : ", username)
     welcome = f'''
-<b>Hey {username} 👋
+Hi\n☘️ I'am Text to Carbonized a Code Generater Bot\n🙋‍♂️ Hit /help If You Don't Know How to Use Me\n🌷 Powerd By Programming Boy Corporation ©️\n☘️ Developer @HASINDU_HIMASARA
 
-I'm <a herf=\"http://t.me/slbotzone\">slbotzone</a> 
-මම දියුනු  photo editor bot කෙනෙක් මට ගොඩක් දෙවල් කරන්න පුලුවන් මන් වගේ කෙනෙක් හදාගන්න ඔන්නම් පහල විඩියො එක බලන්න
-https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA
-
-I Can Do Many Things
-
-💫 ➠ I Can Carbonized A Code 
-💫 ➠ I Can Extract Text From An Image
-💫 ➠ I Can Reverse Search An Image
-💫 ➠ I Can Add Watermark to An Image
-💫 ➠ I Can Blur A Image
-
-Hit /help If You Don't Know How to Use Me 
-
-owner  : <a href=\"t.me/supunma\"> supun maduranga  </a>🧑‍💻
-supporter  : <a href=\"t.me/sineth_shehara\"> sineth_shehara </a>🧑‍💻
-Support Group : <a href=\"https://t.me/slbotzone\">sl bot zone </a> 🦸‍♂️
-
-Made By <a href=\"https://t.me/slbotzone\"> sl geek show  </a> ❤️
- reply_markup=InlineKeyboardMarkup(
-                                [[
-                                        InlineKeyboardButton(
-                                            "🌟 Help 🌟 ", callback_data="help"),
-                                        InlineKeyboardButton(
-                                            "🗣 Channel 🗣 ", url="https://t.me/slbotzone")
-                                    ],[
-                                      InlineKeyboardButton(
-                                            "😇 create your own bot 😇 ", url="https://www.youtube.com/channel/UCvYfJcTr8RY72dIapzMqFQA?sub_confirmation=1")
-                                    ]]
-                            ),        
-</b>
 '''
     update.message.reply_text(reply_to_message_id=update.message.message_id, text=welcome, parse_mode='html',
                               disable_web_page_preview=True)
@@ -262,11 +231,8 @@ def carbon(update, context):
     username = update.message.chat.username
     print("Carbon By : ", username)
     messa = '''<b>
-Please Wait For Few Seconds 🧘‍♂️
-
-Carbonizing 🌿 the Your Code 👨‍💻
-
-Please help me to join @slbotzone 🥺
+⚙️ Generating Carbon Please Wait...
+✌️ Please Join Updates @TECH_WIDE_GROUP
                                         </b>'''
 
     update.message.reply_text(reply_to_message_id=update.message.message_id, text=messa, parse_mode='html')
@@ -299,7 +265,7 @@ Please help me to join @slbotzone 🥺
     button = driver.find_element_by_xpath("//button[@class='jsx-1730877631 ']")
     button.click()
     time.sleep(5)
-    caption = "<b>Carbonized By <a herf=\"http://t.me/slbotzone\">@slbotzone</a></b>❤️"
+    caption = "<b>Carbonized By <a herf=\"http://t.me/Advance_image_editor_Bot\">@slbotzone</a></b>☘"
     context.bot.send_document(chat_id=update.effective_chat.id,
                               document=open('./Carbon/carbon.png', 'rb'),
                               caption=caption, parse_mode="html")
